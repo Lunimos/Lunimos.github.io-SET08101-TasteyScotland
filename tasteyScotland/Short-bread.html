@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--setting global language to english-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---link normalize style sheet to css folder -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!---link style sheet to css folder -->
+    <link rel="stylesheet" href="./CSS/foodstyles.css">
+    <!---link for the ability to use awesome font (found w3schools)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>TasteyScotland | Scottish Recipes</title>
+</head>
+<body >
+    <style>
+        body{
+            background-image: url(imgs/home-background.jpg);
+            background-repeat: no-repeat;
+            background-size:100% 100vh;
+        }
+    </style>
+    <!-------Below is navigation bar-->
+   <header>
+    <!-------------------Created navbar class--------------------->
+    <div class="navbar">
+        <!--Created class logo-->
+        <!--Below Navigation Menu elements-->
+        <nav>
+            <!--check box found from CodingNepal
+            https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal
+            -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"> 
+                <i class="fa fa-bars"></i>
+            </label>
+            <!---Create label class for website name-->
+            <label class="logo">TasteyScotland</label>
+            <ul>
+                <!--list item tag-->
+                <!---using class active to highlight active page -->
+                <!---linking all html pages-->
+                <li><a href="index.html">Home</a></A></li>
+                <li><a href="MainCourses.html">Main Courses</a></A></li>
+                <li><a class="active" href="./Desserts.html">Desserts</a></A></li>
+                <li><a href="FAQ.html">FAQ</a></A></li>
+                <li><a href="Contact-Us.html">Contact-Us</a></A></li>
+                <li><a class="Search-form">
+                    <input type="text" placeholder="Search">
+                    <button> Search</button>
+                </aclass>
+            </ul>
+        </nav>
+       
+    </div>
+   </header>
+<!--------------------Header/navbar END---------------------->
+<!--------image and ingredient section------------->
+
+
+
+<div class="row">
+    <div class="column left" style="background-color:#aaa;">
+        <h1 id="step"><td>&nbsp;</td>Scottish Shortbread</h1>
+        <img src="./imgs/short-bread.jpg" id="cranachan" alt="Picture of Scottish Shortbread" />
+        <h1 id="step"><td>&nbsp;</td>Ingredients</h1>
+        <td>&nbsp;</td>
+        <h3 >
+            <td>&nbsp;</td>
+            260g Unsalted butter <br/>
+            <td>&nbsp;</td>
+            350g Plain flour <br/>
+            <td>&nbsp;</td>
+            50g Rice flour <br/>
+            <td>&nbsp;</td>
+            100g Caster sugar + 1tbsp <br/>
+        </h3>
+    </div>
+    <div class="column right" style="background-color:#bbb;">
+      <h2><u>Food Description</u></h2>
+      <td>&nbsp;</td>
+      <p>Scottish shortbread is a classic Scottish biscuit that is loved for its crumbly and buttery texture. 
+        <br/>It is a simple yet delicious treat made with just three ingredients: butter, sugar, and flour. 
+        <br/>Scottish shortbread is a popular choice for tea time,
+        <br/> and is often served during special occasions such as weddings and Christmas.</p>
+      <td>&nbsp;</td>
+      <h2><u>Kitchen utensils:</u></h2>
+      <td>&nbsp;</td>
+      <h3 id="step">
+        Oven<br/>
+        <br/>
+        Food processor<br/>
+        <br/>
+        Baking Tray<br/>
+        <br/>
+        Mixing Bowl<br/>
+        <br/>
+        Sharp Knife<br/>
+        <br/>
+        Wire Rack
+      </h3>
+      <td>&nbsp;</td>
+      <h2>Difficulty: <span style="color: #0082e6;;">Easy</span></h2>
+      <td>&nbsp;</td>
+      <h2>Preparation Time: <span style="color: #0082e6;;">10 mins</span></h2>
+      <td>&nbsp;</td>
+      <h2>Cook Time: <span style="color: #0082e6;;">30 mins</span></h2>
+      <td>&nbsp;</td>
+      <h2>Servings: <span style="color: #0082e6;;">16 squares</span></h2>
+      <td>&nbsp;</td>
+      <h3 id="step">Step One:</h3>
+      <td>&nbsp;</td>
+      <p>Heat the oven to 180C/160C fan/gas 4. Butter and line a 28 x 18cm tin.
+         In a food processor, pulse together the butter, both flours,
+          ½ tsp salt and the 100g of sugar until the mixture resembles fine breadcrumbs.
+           Pulse a few more times until it comes together into a rough ball. 
+           Alternatively, put all the ingredients in a bowl and rub together using your 
+           fingertips until the mixture resembles fine breadcrumbs. Bring together into a 
+           pliable dough and press down into the prepared tin.
+         Using a sharp knife, mark the dough into 16 bars.</p>
+    <td>&nbsp;</td>
+
+    <h3 id="step">Step Two:</h3>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <p>Sprinkle over the remaining sugar and bake for 25-30 mins until golden and set. 
+        Remove and prick the dough all over. <br/>
+        Leave to cool in the tin for 5 mins before transferring to a wire rack to cool completely. 
+        <br/>Using a sharp knife, cut through your earlier scores to separate completely.</p>
+          <td>&nbsp;</td>
+    </div>
+  </div>
+
+
+
+<footer>
+    <!---Class created for footer copyright-->
+    <div class="footer">
+        <p class="footer-text-left">
+        <a href="https://www.facebook.com" class="fa fa-facebook">
+        <span>Our Facebook Page</span>
+        </a>
+        <li><a href="https://twitter.com/" class="fa fa-twitter">
+        <span>Our Twitter Page</span>
+         </a></A></li>
+        <p>&copy; TasteyScotland 2023</p>
+    </div>
+    <!---Creating Class for Social Medias -->
+    <div class="Social Media">
+        <!---Creating facebook link to facebook.com as not setting one up -->
+        <!--alt attribute used in the event image cant be loaded-->
+    </div>
+</footer>     
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--setting global language to english-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---link normalize style sheet to css folder -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!---link style sheet to css folder -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!---link for the ability to use awesome font (found w3schools)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>TasteyScotland | Scottish Recipes</title>
+</head>
+<body >
+    <style>
+        body{
+            background-image: url(./imgs/home-background.jpg);
+            background-repeat: no-repeat;
+            background-size:100% 100vh;
+        }
+    </style>
+    <!-------Below is navigation bar-->
+   <header>
+    <!-------------------Created navbar class--------------------->
+    <div class="navbar">
+        <!--Created class logo-->
+        <!--Below Navigation Menu elements-->
+        <nav>
+            <!--check box found from CodingNepal
+            https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal
+            -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"> 
+                <i class="fa fa-bars"></i>
+            </label>
+            <!---Create label class for website name-->
+            <label class="logo">TasteyScotland</label>
+            <ul>
+                <!--list item tag-->
+                <!---using class active to highlight active page -->
+                <!---linking all html pages-->
+                <li><a href="index.html">Home</a></A></li>
+                <li><a href="MainCourses.html">Main Courses</a></A></li>
+                <li><a href="Desserts.html">Desserts</a></A></li>
+                <li><a class="active" href="FAQ.html">FAQ</a></A></li>
+                <li><a href="Contact-Us.html">Contact-Us</a></A></li>
+                <li><a class="Search-form">
+                    <input type="text" placeholder="Search">
+                    <button> Search</button>
+                </aclass>
+            </ul>
+        </nav>
+       
+    </div>
+   </header>
+<!--------------------Header/navbar END---------------------->
+
+<!----container for FAQ h1 and for buttons-->
+<div class="wrapper">
+    <h1>Frequently Asked Questions</h1>
+    <!--used as a container for all our Frequently asked questions-->
+    <div class="faq">
+        <button class="accordion">
+            What is a Haggis ?
+            <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="panel">
+            <p>
+                Haggis or the galic word Taigeis is a savory pudding traditionaly 
+                encased in a sheeps stomach containing: Sheep Heart, Liver and Lungs
+                Minced with onions, oatmeal, suet, spices, and salt mixed with stock.
+            </p>
+        </div>
+    </div>
+    <div class="faq">
+        <button class="accordion">
+            Where can i find Scottish ingredients?
+            <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="panel">
+            <p>
+                Scottish ingredients can be found in specialty stores throughout Scotland
+                as well as online. Local farmers and fishmongers would be the best place
+                to get fresh ingredients.
+            </p>
+        </div>
+    </div> 
+    <div class="faq">
+        <button class="accordion">
+            What is the best cooking whisky?
+            <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="panel">
+            <p>
+                The best whisky for cooking is personal preference, but the most popular brands
+                include Lagvulin, Talisker and Laphroaig.
+            </p>
+        </div>
+    </div> 
+    <div class="faq">
+        <button class="accordion">
+            Can I adjust the measurements in Scottish recipes to fit my needs?
+            <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="panel">
+            <p>
+                Yes, Scottish recipes can be adjusted to fit your needs. 
+                Be sure to use the correct conversion ratios when adjusting the recipe.
+            </p>
+        </div>
+    </div> 
+    <div class="faq">
+        <button class="accordion">
+            Can I substitute ingredients in Scottish recipes?
+            <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="panel">
+            <p>
+                Yes, you can substitute ingredients in Scottish recipes, 
+                but keep in mind that it may affect the flavor and texture of the dish. 
+                It's best to stick to traditional ingredients when possible.
+            </p>
+        </div>
+    </div> 
+    <script src="./javascript/faq.js"></script>
+</div>
+
+
+
+    <footer>
+        <!---Class created for footer copyright-->
+        <div class="footer">
+            <p class="footer-text-left">
+            <a href="https://www.facebook.com" class="fa fa-facebook">
+            <span>Our Facebook Page</span>
+            </a>
+            <li><a href="https://twitter.com/" class="fa fa-twitter">
+            <span>Our Twitter Page</span>
+            </a></A></li>
+            <p>&copy; TasteyScotland 2023</p>
+        </div>
+        <!---Creating Class for Social Medias -->
+        <div class="Social Media">
+            <!---Creating facebook link to facebook.com as not setting one up -->
+            <!--alt attribute used in the event image cant be loaded-->
+        </div>
+    </footer>     
+</body>
+
+</html>

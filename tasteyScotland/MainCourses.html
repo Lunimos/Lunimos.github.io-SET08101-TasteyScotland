@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--setting global language to english-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---link normalize style sheet to css folder -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!---link style sheet to css folder -->
+    <link rel="stylesheet" href="./css/foodstyles.css">
+    <!---link for the ability to use awesome font (found w3schools)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>TasteyScotland | Scottish Recipes</title>
+</head>
+<body >
+    <style>
+        body{
+            background-image: url(./imgs/MainCourse-background.jpg);
+            background-repeat: no-repeat;
+            background-size:100% 100vh;
+        }
+    </style>
+    <!-------Below is navigation bar-->
+   <header>
+    <!-------------------Created navbar class--------------------->
+    <div class="navbar">
+        <!--Created class logo-->
+        <!--Below Navigation Menu elements-->
+        <nav>
+            <!--check box found from CodingNepal
+            https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal
+            -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"> 
+                <i class="fa fa-bars"></i>
+            </label>
+            <!---Create label class for website name-->
+            <label class="logo">TasteyScotland</label>
+            <ul>
+                <!--list item tag-->
+                <!---using class active to highlight active page -->
+                <!---linking all html pages-->
+                <li><a href="index.html">Home</a></A></li>
+                <li><a class="active"href="MainCourses.html">Main Courses</a></A></li>
+                <li><a href="Desserts.html">Desserts</a></A></li>
+                <li><a href="FAQ.html">FAQ</a></A></li>
+                <li><a href="Contact-Us.html">Contact-Us</a></A></li>
+                <li><a class="Search-form">
+                    <input type="text" placeholder="Search">
+                    <button> Search</button>
+                </a>
+                </li>
+            </ul>
+        </nav>
+       
+    </div>
+   </header>
+<!--------------------Header/navbar END---------------------->
+
+
+
+
+
+<div class="container">
+
+    <div class="recipe-card">
+        <figure>
+            <img src="./imgs/clapshot.jpg" alt="Picture of Clapshot" />
+        </figure>
+        
+        <div class="card-meta">
+            <p class="dish-type">Main Course</p>
+            
+            <ul class="dish-stats">
+                <li>
+                    50 mins
+                </li>
+            </ul>
+        </div> <!-- end card-meta -->
+            <h1><a href="./Clapshot.html">Delicious Clapshot</a></h1>
+</div>
+
+
+    <div class="recipe-card">
+        <figure>
+            <img src="./imgs/haggis-pie.jpg" alt=" picture of Scottish Haggis shepherd’s pie" />
+        </figure>
+                
+         <div class="card-meta">
+            <p class="dish-type">Main Course</p>
+                    
+            <ul class="dish-stats">
+                <li>
+                    1 hr 30 mins
+                </li>
+            </ul>
+        </div> <!-- end card-meta -->
+            <h1><a href="./Haggis-shepherdspie.html">Haggis shepherd’s pie</a></h1>
+
+</div>
+
+
+    <div class="recipe-card">
+        <figure>
+            <img src="./imgs/scotch-broth.jpg" alt="Scotch broth" />
+        </figure>
+                
+         <div class="card-meta">
+            <p class="dish-type">Main Course</p>
+                    
+            <ul class="dish-stats">
+                <li>
+                    1 hr 30 mins
+                </li>
+            </ul>
+        </div> <!-- end card-meta -->
+            <h1><a href="./Scotchbroth.html">Scotch broth</a></h1>
+
+</div>
+    <div class="recipe-card">
+        <figure>
+            <img src="./imgs/Cullen-skink.jpg" alt="Cullen skink" />
+        </figure>
+                
+         <div class="card-meta">
+            <p class="dish-type">Main Course</p>
+                    
+            <ul class="dish-stats">
+                <li>
+                    40 mins
+                </li>
+            </ul>
+        </div> <!-- end card-meta -->
+            <h1><a href="./Cullen-skink.html">Cullen skink</a></h1>
+
+</div>
+</div>
+
+
+
+
+
+    <footer>
+        <!---Class created for footer copyright-->
+        <div class="footer">
+            <p class="footer-text-left">
+            <a href="https://www.facebook.com" class="fa fa-facebook">
+            <span>Our Facebook Page</span>
+            </a>
+            <li><a href="https://twitter.com/" class="fa fa-twitter">
+            <span>Our Twitter Page</span>
+            </a></A></li>
+            <p>&copy; TasteyScotland 2023</p>
+        </div>
+        <!---Creating Class for Social Medias -->
+        <div class="Social Media">
+            <!---Creating facebook link to facebook.com as not setting one up -->
+            <!--alt attribute used in the event image cant be loaded-->
+        </div>
+    </footer>     
+</body>
+
+</html>

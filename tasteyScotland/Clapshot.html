@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--setting global language to english-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---link normalize style sheet to css folder -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!---link style sheet to css folder -->
+    <link rel="stylesheet" href="./CSS/foodstyles.css">
+    <!---link for the ability to use awesome font (found w3schools)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>TasteyScotland | Scottish Recipes</title>
+</head>
+<body >
+    <style>
+        body{
+            background-image: url(imgs/home-background.jpg);
+            background-repeat: no-repeat;
+            background-size:100% 100vh;
+        }
+    </style>
+    <!-------Below is navigation bar-->
+   <header>
+    <!-------------------Created navbar class--------------------->
+    <div class="navbar">
+        <!--Created class logo-->
+        <!--Below Navigation Menu elements-->
+        <nav>
+            <!--check box found from CodingNepal
+            https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal
+            -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"> 
+                <i class="fa fa-bars"></i>
+            </label>
+            <!---Create label class for website name-->
+            <label class="logo">TasteyScotland</label>
+            <ul>
+                <!--list item tag-->
+                <!---using class active to highlight active page -->
+                <!---linking all html pages-->
+                <li><a href="index.html">Home</a></A></li>
+                <li><a class="active" href="MainCourses.html">Main Courses</a></A></li>
+                <li><a href="./Desserts.html">Desserts</a></A></li>
+                <li><a href="FAQ.html">FAQ</a></A></li>
+                <li><a href="Contact-Us.html">Contact-Us</a></A></li>
+                <li><a class="Search-form">
+                    <input type="text" placeholder="Search">
+                    <button> Search</button>
+                </aclass>
+            </ul>
+        </nav>
+       
+    </div>
+   </header>
+<!--------------------Header/navbar END---------------------->
+<!--------image and ingredient section------------->
+
+
+
+<div class="row">
+    <div class="column left" style="background-color:#aaa;">
+        <h1 id="step"><td>&nbsp;</td>Clapshot</h1>
+        <img src="./imgs/clapshot.jpg" id="cranachan" alt="Picture of Scottish Clapshot" />
+        <h1 id="step"><td>&nbsp;</td>Ingredients</h1>
+        <td>&nbsp;</td>
+        <h3 >
+            <td>&nbsp;</td>
+            1 pound Potatoes, cubed and peeled <br/>
+            <td>&nbsp;</td>
+            3/4 pount Turnips, cubed and peeled<br/>
+            <td>&nbsp;</td>
+            1/4 pound Carrots, cubed and peeled <br/>
+            <td>&nbsp;</td>
+            1 tsp Salt<br/>
+            <td>&nbsp;</td>
+            2 tbsp Butter<br/>
+            <td>&nbsp;</td>
+            3 tbsp Heavy cream<br/>
+       
+        </h3>
+    </div>
+    <div class="column right" style="background-color:#bbb;">
+      <h2><u>Food Description</u></h2>
+      <td>&nbsp;</td>
+      <p>Clapshot is a traditional Scottish dish that originated in the Orkney Islands. 
+        It is a simple but hearty dish made with mashed potatoes and turnips (also known as swedes or rutabagas) mixed together with butter and seasoning. 
+        The name "clapshot" comes from the sound of the wooden spoon hitting the side of the pot as the ingredients are mixed together.</p>
+      <td>&nbsp;</td>
+      <h2><u>Kitchen utensils:</u></h2>
+      <td>&nbsp;</td>
+      <h3 id="step">
+        Stove Burner<br/>
+        <br/>
+        Dutch Oven<br/>
+        <br/>
+        Sharp Knifey<br/>
+        <br/>
+        Potato Masher<br/>
+      </h3>
+      <td>&nbsp;</td>
+      <h2>Difficulty: <span style="color: #0082e6;;">Easy</span></h2>
+      <td>&nbsp;</td>
+      <h2>Preparation Time: <span style="color: #0082e6;;">25 mins</span></h2>
+      <td>&nbsp;</td>
+      <h2>Cook Time: <span style="color: #0082e6;;">25 mins</span></h2>
+      <td>&nbsp;</td>
+      <h2>Servings: <span style="color: #0082e6;;">8</span></h2>
+      <td>&nbsp;</td>
+      <h3 id="step">Step One:</h3>
+      <td>&nbsp;</td>
+      <p>Place potatoes, turnips, carrots, and salt into a Dutch oven. 
+        Fill with water to cover vegetables and bring to a boil over high heat. 
+        Reduce the heat to medium-high and boil until vegetables are tender, 20 to 25 minutes.</p>
+    <td>&nbsp;</td>
+
+    <h3 id="step">Step Two:</h3>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <p>Drain and mash vegetables with a potato masher. 
+        Spoon mashed vegetables into a serving dish. Top with butter and drizzle with cream.</p>
+          <td>&nbsp;</td>
+
+
+<footer>
+    <!---Class created for footer copyright-->
+    <div class="footer">
+        <p class="footer-text-left">
+        <a href="https://www.facebook.com" class="fa fa-facebook">
+        <span>Our Facebook Page</span>
+        </a>
+        <li><a href="https://twitter.com/" class="fa fa-twitter">
+        <span>Our Twitter Page</span>
+         </a></A></li>
+        <p>&copy; TasteyScotland 2023</p>
+    </div>
+    <!---Creating Class for Social Medias -->
+    <div class="Social Media">
+        <!---Creating facebook link to facebook.com as not setting one up -->
+        <!--alt attribute used in the event image cant be loaded-->
+    </div>
+</footer>     
+</body>
+
+</html>
