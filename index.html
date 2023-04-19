@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--setting global language to english-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---link normalize style sheet to css folder -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!---link style sheet to css folder -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <!---link for the ability to use awesome font (found w3schools)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>TasteyScotland | Scottish Recipes</title>
+</head>
+<body >
+    <style>
+        body{
+            background-image: url(./imgs/home-background.jpg);
+            background-repeat: no-repeat;
+            background-size:100% 100vh;
+        }
+    </style>
+    <!-------Below is navigation bar-->
+   <header>
+    <!-------------------Created navbar class--------------------->
+    <div class="navbar">
+        <!--Created class logo-->
+        <!--Below Navigation Menu elements-->
+        <nav>
+            <!--check box found from CodingNepal
+            https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal
+            -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"> 
+                <i class="fa fa-bars"></i>
+            </label>
+            <!---Create label class for website name-->
+            <label class="logo">TasteyScotland</label>
+            <ul>
+                <!--list item tag-->
+                <!---using class active to highlight active page -->
+                <!---linking all html pages-->
+                <li><a class="active" href="index.html">Home</a></A></li>
+                <li><a href="MainCourses.html">Main Courses</a></A></li>
+                <li><a href="Desserts.html">Desserts</a></A></li>
+                <li><a href="FAQ.html">FAQ</a></A></li>
+                <li><a href="Contact-Us.html">Contact-Us</a></A></li>
+                <li><a class="Search-form">
+                    <input type="text" placeholder="Search">
+                    <button> Search</button>
+                </aclass>
+            </ul>
+        </nav>
+       
+    </div>
+   </header>
+<!--------------------Header/navbar END---------------------->
+ <!---Containter for our story introduction -->
+    <div class="container">
+        <div id="our-story">
+            <h1>Our Story</h1>
+            <h4>Let us show the world what <strong>Scotland</strong> has to offer</h4>
+            <p>
+                Welcome to our Scottish Recipe website, 
+                a place where you can explore the rich culinary heritage of Scotland.
+                From hearty stews and soups to mouth-watering desserts, Scottish cuisine is 
+                a fusion of traditional and modern flavors that have been influenced 
+                by its history and culture.
+            </p>
+        </div>
+    </div>
+    <!---Containter for the food award text -->
+    <div class="container">
+        <div id="food-award" class="clearfix">
+            <h1>Scottish Food food-award</h1>
+            <p>
+                The Scottish Food Awards is an annual event that 
+                celebrates the best food and drink producers in Scotland.
+                The awards recognize the hard work and dedication 
+                of Scottish farmers, fishermen, bakers, distillers
+                and other food producers who create exceptional products. 
+                You can find more about it below. </p>
+                <a href="https://excellenceawards.foodanddrink.scot/" id="food-link">HERE &rarr;</a>
+            <img src="imgs/scottish-food-award.jpg" id="food-award-image" alt="Scottish Food Award">
+    </div>  
+
+
+
+    <footer>
+        <!---Class created for footer copyright-->
+        <div class="footer">
+            <p class="footer-text-left">
+            <a href="https://www.facebook.com" class="fa fa-facebook">
+            <span>Our Facebook Page</span>
+            </a>
+            <li><a href="https://twitter.com/" class="fa fa-twitter">
+            <span>Our Twitter Page</span>
+             </a></A></li>
+            <p>&copy; TasteyScotland 2023</p>
+        </div>
+        <!---Creating Class for Social Medias -->
+        <div class="Social Media">
+            <!---Creating facebook link to facebook.com as not setting one up -->
+            <!--alt attribute used in the event image cant be loaded-->
+        </div>
+    </footer>     
+</body>
+
+</html>
